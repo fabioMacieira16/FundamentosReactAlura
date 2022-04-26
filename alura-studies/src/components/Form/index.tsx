@@ -1,6 +1,7 @@
 import React from "react"
 import Button from "../Button"
 import Style from './Form.module.scss'
+
 class Form extends React.Component {
     render() {
         return (
@@ -30,7 +31,9 @@ class Form extends React.Component {
                         required
                     />
                 </div>
-                <Button />
+                <Button>
+                    Adicionar
+                </Button>
             </form>
         )
     }

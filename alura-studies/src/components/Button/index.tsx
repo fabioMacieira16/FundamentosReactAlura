@@ -3,8 +3,7 @@ import Style from './Button.module.scss'
 class Button extends React.Component {
     render() {
         return (
-            <button className={Style.botao}>
-                Botão
+            <button className={Style.botao}>    
             </button>
         )
     }
