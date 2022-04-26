@@ -1,6 +1,6 @@
 import React from "react";
 
-class Botao extends React.Component {
+class Button extends React.Component {
     render(){
         return(
             <button> Botão</button>
@@ -8,4 +8,4 @@ class Botao extends React.Component {
     }
 }
 
-export default Botao;
+export default Button;
