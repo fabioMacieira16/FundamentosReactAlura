@@ -1,12 +1,16 @@
-import React from "react"
+import React from 'react';
 import Style from './Button.module.scss'
-class Button extends React.Component {
+interface IProps {
+    children: React.ReactChild;
+}
+class Botao extends React.Component<IProps> {
     render() {
         return (
-            <button className={Style.botao}>    
+            <button className={Style.botao}>
+                {this.props.children}
             </button>
         )
     }
 }
 
-export default Button;
+export default Botao;

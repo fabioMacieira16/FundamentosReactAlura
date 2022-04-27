@@ -8,7 +8,7 @@ class Form extends React.Component {
             <form className={Style.novaTarefa}>
                 <div className={Style.inputContainer}>
                     <label htmlFor="tarefa">
-                        Adiicone um novo estudo
+                        Adicone um novo estudo
                     </label>
                     <input
                         type="text"
